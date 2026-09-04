@@ -35,6 +35,12 @@ jobs:
           - "3.14"
           - "3.14t"
           - "3.15"
+        exclude:
+          # docker, pulled transitively by moto, depends on pywin32,
+          # which ships no free threaded wheel for Windows 3.14t. The
+          # free threaded build is covered on Linux and macOS.
+          - os: windows-latest
+            python-version: "3.14t"
     steps:
       - name: Checkout code
         uses: actions/checkout@v6
