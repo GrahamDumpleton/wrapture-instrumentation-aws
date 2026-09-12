@@ -10,8 +10,8 @@ the AWS package in that collection: one `wrapture.Instrumentation`
 class for the AWS SDK, so tracing every call your application makes to
 S3, DynamoDB, SQS and the rest is one config entry and no code.
 
-> **Status: alpha, ahead of 1.0.0.** Developed against wrapture's
-> alpha series, with pre-releases published to
+> **Status: beta, ahead of 1.0.0.** Developed against wrapture's
+> beta series, with pre-releases published to
 > [PyPI](https://pypi.org/project/wrapture-instrumentation-aws/), and
 > until 1.0.0 is final a plain `pip install
 > wrapture-instrumentation-aws` picks up the latest pre-release

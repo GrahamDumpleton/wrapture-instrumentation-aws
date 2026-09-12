@@ -15,7 +15,7 @@ authors = [
 requires-python = ">=3.12"
 keywords = ["wrapture", "instrumentation", "aws", "boto3", "botocore", "tracing"]
 classifiers = [
-    "Development Status :: 2 - Pre-Alpha",
+    "Development Status :: 4 - Beta",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.12",
     "Programming Language :: Python :: 3.13",
@@ -30,7 +30,7 @@ classifiers = [
 # floor is the release carrying per-operation resolvers (label=,
 # category= and data= as callables), which the botocore seam declares.
 dependencies = [
-    "wrapture>=1.0.0a21",
+    "wrapture>=1.0.0b1",
 ]
 
 [project.urls]
